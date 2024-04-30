@@ -13,3 +13,21 @@ android_app_import {
 		"Jelly",
 	],
 }
+
+android_app_import {
+	name: "Camera",
+	apk: "Camera/Camera.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	optional_uses_libs: ["androidx.camera.extensions.impl"],
+	product_specific: true,
+	overrides: [
+		"Aperture",
+		"Flash",
+		"camera",
+		"camera2",
+	],
+}

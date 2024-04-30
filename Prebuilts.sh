@@ -56,6 +56,7 @@ function fetchPrebuilts() {
 # parameters
 # 1 - App name # 2 - App apk url
 fetchPrebuilts DuckDuckGo https://api.github.com/repos/duckduckgo/Android/releases/latest
+fetchPrebuilts Camera https://api.github.com/repos/GrapheneOS/Camera/releases/latest
 
 # git commit stage
 if [ ${#commit_msg[@]} -ne 0 ]; then
