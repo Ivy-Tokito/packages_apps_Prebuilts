@@ -1,8 +1,5 @@
-Fetch Tag: 5.197.1
-## What's new in this release?
-Bug fixes and other improvements
-
-Join our fully distributed team and help raise the standard of trust online! https://duckduckgo.com/hiring
-
-## Have feedback?
-You can always reach us at https://duckduckgo.com/feedback.
+Fetch Tag: 5.200.1
+## What's new:
+We addressed an App Tracking Protection connection issue affecting some Android devices.
+We also fixed the issue that could have caused the browser to crash when switching or deleting tabs.
+Plus a handful of other bug fixes and improvements.
